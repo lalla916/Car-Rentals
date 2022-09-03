@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Collegiate+One:ital@0;1&family=Alumni+Sans+Pinstripe:ital@1&family=DynaPuff&family=Poppins&family=Prompt:wght@700;900&family=Silkscreen&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: black;
+    padding: 14px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    padding-left: 102px;
+   
+}
+.links{
+ display: flex;
+ justify-content: space-between;
+ align-items:center ;
+ padding-right: 142px;
+ width: 39%;
+}
+.links a {
+    color: white;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif ;
+
+}
+.pagesbtn{
+    font-size: 12px;
+    font-weight: 400;
+    width: 64px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family:'Poppins', sans-serif ;
+}
+
+
+
+
+                             /*home page*/
+
+
+
+
+.homepage{
+    background-image: url(/images/Car/home\ page1.jpg);
+    height: 630px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.homeinfo{
+    margin-left: 90px;
+    margin-right: 8px;
+    width: 70%;
+}
+.hometitle{
+   
+    margin-top: 182px;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    text-align: left;
+    line-height: 30px;
+}
+
+   
+ .titleone{
+  font-size: 14px;  
+  font-weight:400;
+  letter-spacing: 2px;
+  margin-left: 16px;
+  
+ 
+}
+.titletwo {
+    margin-left: 16px;
+    font-size:48px;  
+    font-weight: 600;
+    
+        
+    }
+    .titlethree{
+        margin: 16px;
+        font-size: 14px;
+
+    }
+
+.homebtn{
+    width: 16%;
+    color: white;
+    background: #FAB700;
+    font-size: 14px;
+    font-weight:500;
+    text-transform:uppercase;
+    font-style: normal;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration:none solid rgb(250, 183, 0);
+    padding: 0px 40px;
+    line-height: 42px;
+    margin-top: 32px;
+    margin-left: 16px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.book{
+   display: flex;
+   justify-content: flex-start;
+ padding-left: 56px;
+   width: 40%;
+   line-height:22.75px;
+   margin-top: 66px;
+   margin-bottom: 32px;
+   margin-right: 96px;
+   margin-left: 8px;
+   background-blend-mode: darken;
+   background-color: rgba(32, 46, 69, 0.4);
+   border: 1px solid #4b5263;
+}
+.titlebtn{
+    color: white; 
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
+    text-align: center;
+    line-height:21.6px ;
+    letter-spacing: normal;
+    padding: 0 0 16px;
+}
+.communbtn{
+    color: #777777;
+   font-size: 14px;
+   font-family: 'Poppins' , sans-serif;
+   font-weight: 300;
+   line-height: 40px;
+    margin:16px 50px 0px 0px;
+    height: 40px;
+    border-radius: 5px;
+  
+}
+.datebtnone , .datebtntwo {
+    height: 35px;
+}
+img .datebtnone{
+    width: 5px;
+    height: 5px;
+}
+.selectbtnone , .namebtn , .emailbtn , .numberbtn , .confirmbtn{
+    width: 100%;
+
+}
+.selectbtntwo , .selectbtnthree{
+    width: 45%;
+}
+.datebtnone , .datebtntwo{
+    width: 30%;
+}
+
+.selectbtnthree , .datetbtntwo {
+ 
+    flex-direction: row;
+}
+    .selectbtntwo {
+      margin-right: 3%;  
+    }
+    .selectbtnthree{
+        margin-right: 3%;    
+    }
+    .confirmbtn{
+        color: white;
+        background-color: #FAB700;
+        border: 1px solid transparent;
+    }
+   .confirmbtn:active{
+    border:3px solid rgb(23, 23, 156);
+   }
+
+
+    
+
